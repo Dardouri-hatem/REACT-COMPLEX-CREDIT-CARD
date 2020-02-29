@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Kalam|Oxanium|Roboto+Mono&display=swap');
+
+*{
+    margin: 0 !important;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.Default{
+    border-radius: 10px 10px 10px 10px;
+    background: url(http://www.psdgraphics.com/file/world-map-background.jpg) no-repeat center center; 
+    background-size: cover;
+    width: 30% !important;
+    height: 200px;
+    padding: 10px;
+    margin: 5%;
+    color: lightcyan;
+    line-height: 1.5;
+    font-family: 'Oxanium' ;
+
+}
+.Company-name{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Dancing Script';
+    
+}
+.inputText{
+    margin:5% 0;
+}
+.inputText * {
+    width: 500px;
+    height: 30px ;
+    margin: 10px;
+}
+
+
+#expiration{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+.date{
+    display: flex;
+    width: 50px;
+}
+.PaymentForm{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px !important;
+}
+form{
+    border:solid lightgray;
+    width: 30%;
+    padding: 5px 10px 20px;
+    height: 200px;
+}
+form input{
+    width: 60%;
+    height: 15%;
+    margin: 10px !important;
+    border: solid lightblue;
+    border-radius:4px ;
+}
+.logoMasterCard{
+width: 50px;
+position: absolute;
+}
